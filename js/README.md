@@ -8,8 +8,10 @@ js
 ##javascript DOM##
 
 ##javascript BOM##
+
 - - - 
 ###Js 定时器###
+
 1. [JavaScript Event Loop 浅析](http://heroicyang.com/2012/08/28/javascript-event-loop/) 有关js的event loop的
 2. [理解JavaScript定时器：setTimeout和setInterval](http://heroicyang.com/2012/09/06/javascript-timers/) js中定时器的一点细节
 3. [setTimeout()和setInterval() 何时被调用执行](http://www.cnblogs.com/dolphinX/archive/2013/04/05/2784933.html)
@@ -17,11 +19,15 @@ js
 5. [How JavaScript Timers Work](http://ejohn.org/blog/how-javascript-timers-work/)中文版
 6. [How JavaScript Timers Work](http://www.cnitblog.com/asfman/articles/55714.html)翻译版
 - - -
+
 ###usagent###
+
 1. [浏览器的用户代理字符串](http://www.cnblogs.com/zoho/archive/2012/04/06/2434777.html)
 2. [用户代理检测](http://csspod.com/archives/user-agent-detection)
+
 - - -
 ###js跨域###
+
 1. [JSONProxy](https://jsonp.nodejitsu.com/) 一个jsonp的代理
 2. [jsonp](http://bob.ippoli.to/archives/2005/12/05/remote-json-jsonp/)
 3. [Javascript跨域详解(1)](http://rolfzhang.com/articles/346.html)
