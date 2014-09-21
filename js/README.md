@@ -3,6 +3,7 @@ js
 
 一些有关js的中间收集的不错的文章，也许有些会因为时间久了失效
 
+
 ##ECMAScript##
 ###this###
 1.　[javascript的动态this与动态绑定](http://www.cnblogs.com/rubylouvre/archive/2009/11/13/1602122.html)
@@ -21,7 +22,14 @@ js
 
 ##javascript DOM##
 
+###其他###
+1. [innerText和textContent的一些区别](http://stackoverflow.com/questions/19030742/difference-between-innertext-and-innerhtml-in-javascript)　　讲解的超级不错
+2. [事件触发器](http://stylechen.com/trigger.html)　有关于事件的触发 
+
+
 ##javascript BOM##
+
+
 - - - 
 ###Js 定时器###
 1. [JavaScript Event Loop 浅析](http://heroicyang.com/2012/08/28/javascript-event-loop/) 有关js的event loop的
@@ -53,8 +61,9 @@ js
 1. [AMD (中文版)](https://github.com/amdjs/amdjs-api/wiki/AMD-(%E4%B8%AD%E6%96%87%E7%89%88))
 2. 
 
-
-
+### Web Components###
+1. [A Guide to Web Components](http://css-tricks.com/modular-future-web-components/) 介绍 Web Components 貌似现在比较流行
+2. [Web Components 初探](http://blog.dayanjia.com/2014/06/web-components-introduction/) 写的不错通俗易懂
 
 ##杂##
 1.　[浏览器开发工具的秘密](http://jinlong.github.io/blog/2013/08/29/devtoolsecrets/)

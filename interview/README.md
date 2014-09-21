@@ -1,7 +1,10 @@
 js
 ================
 
-一些有关js的中间收集的不错的文章，也许有些会因为时间久了失效
+
+
+# 面试基础题目
+
 
 #js#
 ##一、基本知识##
@@ -81,7 +84,7 @@ typeof undefine -> undefine
 ##二、 问题##
 ###1. js脚本延迟###
 js程序在浏览器端的执行分两个步骤：
-1. 载入文档，并执行<script>中的代码
+1. 载入文档，并执行<\script\>中的代码
 2. 执行异步事件 这个时候就是监听浏览上发生的事件
 
 
@@ -129,6 +132,8 @@ target在事件流的目标阶段；currentTarget在事件流的捕获，目标�
 1. new Function()允许js在运行时动态创建并编译函数
 2. 每次调用都会先解析函数体并创建新的函数对象，所以执行的效率比较低（比如在一个循环体中这个定义，每次都会进行解析，而function不用）
 3. Function的作用域在顶层(全局作用域)
+
+注：貌似之前在博客中看到过，有一些模版引擎就是通过这个来实现的
 
 ###7. js创建一个table###
 可能一开始的想法会是如下
@@ -185,27 +190,126 @@ get应该指的是用于获取信息而不是修改信息，
 
 ###11. url中取参数###
 貌似很多地方都会出现这个问题，写了个自己的
-        
-         var getParament = function (_url) {
+
+        var getParament = function (_url) {
             var paramentArray =  _url.split("?")[1].split("&"),
                 tmpObj = {};
-            for(var i=0 ,len = paramentArray.length;i<len;i++){
+            for(var i=0 ,len = paramentArray.length;i<len;i++)
+            {
                     var tmp = paramentArray[i].split("=");
                     tmpObj[tmp[0]] = tmp[1];
             }
             return tmpObj;
         };
-    
         var regetPara = function(_url){
             var pattern = /(\?|&)\w+=\w+/g,
                _paraArray = _url.match(pattern),
                 tmpObj = {};
-            for(var j= 0,len2 = _paraArray.length;j<len2;j++){
-                var tmp = _paraArray[j].substring(1).split("=");
+            for(var j= 0,len2 = _paraArray.length;j<len2;j++)
+            {
+                var　tmp=_paraArray[j].substring(1).split("=");
                 tmpObj[tmp[0]] = tmp[1];
             }
             return tmpObj;
         }
+
+
+###12. 从dom查找class###
+
+写了两种方法，一种是用ducoment.getElementsByTagName("*")；还有一种是基于递归的方法来实现，两种方法见整理的[js-common中element](https://github.com/Tankpt/learning/blob/master/js-common/src/element.js)
+
+
+###13. innerText、textContent区别###
+刚好看到这个。然后搜了下网上找到一个[不错的答案](http://stackoverflow.com/questions/19030742/difference-between-innertext-and-innerhtml-in-javascript)
+大概的就是说了下
+1. innerHTML
+(1)微软在IE中引入，在一些旧的ff浏览器上不支持，其他浏览器都支持
+(2)对样式比较敏感，返回的时候会忽略那些隐藏的元素，这包括了visible:hiddern和display:none的元素
+(3)不会返回那些script标签之间的内容;而且返回的内容会企图保留原来表格的格式
+(4)**对css的样式敏感，会触发一次回流**
+2. textContent
+(1)对样式不敏感，所以那些被隐藏的元素也会一起被返回
+(2)不会触发一次回流，所以在性能上更为好
+(3)会返回标签内的所有内容，包括了script里面的内容
+
+    
+补充:innerHTML的性能不错，效率比那些createElement(**)，再append　DOM中的方法性能要很好多
+
+写了一个比较兼容的方法
+见整理的[js-common中element](https://github.com/Tankpt/learning/blob/master/js-common/src/element.js)
+
+###14. 用innerHTML来实现outerHTML###
+主要的思想就是创建一个临时的容器，里面放着需要的node的一份拷贝内容，在插入的时候则是利用结点在移动的时候，他会自动从一个地方移动到另一个地方，原来的地方不需要手动清除
+见整理的[js-common中element](https://github.com/Tankpt/learning/blob/master/js-common/src/element.js)
+
+###15. 模拟jquery中的append insertBefore的方法###
+
+主要是思路就是通过原生的这append 和insertBefore来实现，insertAfter、insertBefore、append、pretend
+见整理的[js-common中element](https://github.com/Tankpt/learning/blob/master/js-common/src/element.js)
+
+###16. 模拟事件###
+对于事件的绑定和解绑，所要注意的就是IE下的attachEvent与非IE下的addEventListener,之前看到的一个简单的版本如下
+
+        _v._$dispatchEvent = function(_node,_event){
+            try{
+                if(_node.dispatchEvent){
+                    var _eventObj = document.createEvent("HTMLEvents");
+                    _eventObj.initEvent(_event,true,true);
+                    _node.dispatchEvent(_eventObj);
+                }else if(_node.fireEvent){
+                    var evt = document.createEventObject();
+                    _node.fireEvent('on'+_event,evt);
+                }
+            }catch(e){}
+    };
+
+但是存在的一个问题就是不能模拟冒泡这样的事件了，他只是模拟了这个动作，但是跟实际点击这个动作的效果不一样
+
+        /**
+         * 事件触发器
+         * @param { Object } DOM元素
+         * @param { String / Object } 事件类型 / event对象
+         * @param { Array }  传递给事件处理函数的附加参数
+         * @param { Boolean } 是否冒泡
+         */
+        trigger : function( elem, event, data, isStopPropagation ){
+            var type = event.type || event,
+                // 冒泡的父元素，一直到document、window
+                parent = elem.parentNode ||　elem.ownerDocument || 
+                    elem === elem.ownerDocument && win,
+                eventHandler = $.data( elem, type + 'Handler' );
+            isStopPropagation = typeof data === 'boolean' ? 
+                data : (isStopPropagation || false);
+            data = data && isArray( data ) ? data : [];
+            // 创建自定义的event对象        
+            event = typeof event === 'object' ? 
+                    event : {
+                        type : type,
+                        preventDefault : noop,
+                        stopPropagation : function(){
+                            isStopPropagation = true;
+                        }
+                    };
+            event.target = elem;        
+            data.unshift( event );
+            if( eventHandler ){
+                eventHandler.call( elem, data );
+            }
+            // 递归调用自身来模拟冒泡
+            if( parent && !isStopPropagation ){
+                data.shift();
+                this.trigger( parent, event, data );
+            }
+        }
+
+里面有几点做的很赞，一个就是依次遍历递归到顶部的这个方法；还有一个就是判断parent的方法（这个之前都没有设计到过）
+
+参考的博文[事件触发器](http://stylechen.com/trigger.html)
+
+补充：**在event对象中，有俩属性target和currentTarget，其中target始终指向触发该事件的元素；currentTarget则是始终指向绑定事件的元素，而且在事件处理函数中的this 也是指向绑定事件的元素**
+
+###17. 模拟jQuery中的ready方法###
+主要是来监听document的DOMContentLoad（表示文档加载完毕，但是可能图片或延迟的js还没加载好）,还有监听document的readystatechange事件，以及监听load　
 
 #css#
 ##一、基本知识##

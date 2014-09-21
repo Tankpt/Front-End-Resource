@@ -16,6 +16,7 @@ Font-End-Resource
 11.　[张鑫旭](http://www.zhangxinxu.com/wordpress/) 你会看到网上搜到很多css的东西都是会到他这边，css研究很多
 12.　[堂主](http://www.osmn00.com/)
 13.　[阮一峰](http://www.ruanyifeng.com/blog/)
+14.　[雨夜带刀](http://stylechen.com/)最近发现的。文章不多，但是写得都有不错
 
 ##一些小站##
 1.　[JavaScript秘密花园](http://sanshi.me/articles/JavaScript-Garden-CN/html/#intro) 一些语法糖的细节
