@@ -6,14 +6,14 @@ js
 
 ##ECMAScript##
 ###this###
-1.　[javascript的动态this与动态绑定](http://www.cnblogs.com/rubylouvre/archive/2009/11/13/1602122.html)
-2.　[Javascript的this用法](http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html)
-3.　[详解JavaScript中的this](http://foocoder.com/blog/xiang-jie-javascriptzhong-de-this.html/)
-4.　[understanding-keyword-javascript](http://www.phloxblog.in/understanding-keyword-javascript/#.U1XjPfmSx5h)
+1. [javascript的动态this与动态绑定](http://www.cnblogs.com/rubylouvre/archive/2009/11/13/1602122.html)
+2. [Javascript的this用法](http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html)
+3. [详解JavaScript中的this](http://foocoder.com/blog/xiang-jie-javascriptzhong-de-this.html/)
+4. [understanding-keyword-javascript](http://www.phloxblog.in/understanding-keyword-javascript/#.U1XjPfmSx5h)
 
 ###闭包###
-1.　[学习Javascript闭包（Closure）](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
-2.　[javascript深入理解js闭包](http://blog.csdn.net/qq545923664/article/details/17162711)
+1. [学习Javascript闭包（Closure）](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
+2. [javascript深入理解js闭包](http://blog.csdn.net/qq545923664/article/details/17162711)
 
 ###promise###
 1. [JavaScript Promises](http://www.html5rocks.com/zh/tutorials/es6/promises/#toc-async)讲的挺详细的，感觉不错，算是比较通俗易懂的文章了
@@ -61,13 +61,21 @@ js
 1. [AMD (中文版)](https://github.com/amdjs/amdjs-api/wiki/AMD-(%E4%B8%AD%E6%96%87%E7%89%88))
 2. 
 
+### 重绘重排 ###
+1. [浏览器的重绘(repaints)与重排(reflows)](http://www.css88.com/archives/4991)
+2. [页面重绘和回流以及优化](http://www.css88.com/archives/4996)
+
 ### Web Components###
 1. [A Guide to Web Components](http://css-tricks.com/modular-future-web-components/) 介绍 Web Components 貌似现在比较流行
 2. [Web Components 初探](http://blog.dayanjia.com/2014/06/web-components-introduction/) 写的不错通俗易懂
 
+### 浏览器的原理###
+1. [答寒冬九问之讲讲输入完网址按下回车，到看到网页这个过程中发生了什么。](http://www.cnblogs.com/dojo-lzz/p/3983335.html) 回答的比较偏向于前端这边页面的呈现过程
+
 ##杂##
-1.　[浏览器开发工具的秘密](http://jinlong.github.io/blog/2013/08/29/devtoolsecrets/)
-2.　[浅谈HTTP中Get与Post的区别](http://www.cnblogs.com/hyddd/archive/2009/03/31/1426026.html)
-3.　[HTTP常见错误返回代码](http://jackface.iteye.com/blog/2090184)
-4.　[正则表达式的入门](http://deerchao.net/tutorials/regex/regex.htm#mission)
-5.　[55分钟学会正则表达式(译)](http://doslin.com/learn-regular-expressions-in-about-55-minutes/)
+1. [浏览器开发工具的秘密](http://jinlong.github.io/blog/2013/08/29/devtoolsecrets/)
+2. [浅谈HTTP中Get与Post的区别](http://www.cnblogs.com/hyddd/archive/2009/03/31/1426026.html)
+3. [HTTP常见错误返回代码](http://jackface.iteye.com/blog/2090184)
+4. [正则表达式的入门](http://deerchao.net/tutorials/regex/regex.htm#mission)
+5. [55分钟学会正则表达式(译)](http://doslin.com/learn-regular-expressions-in-about-55-minutes/)
+6. [XSS 前端防火墙——内联事件拦截](http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-1/)
