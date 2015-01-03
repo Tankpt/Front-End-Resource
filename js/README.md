@@ -38,10 +38,12 @@ js
 4. [setTimeout和setInterval的区别](http://www.jb51.net/article/26679.htm)
 5. [How JavaScript Timers Work](http://ejohn.org/blog/how-javascript-timers-work/)中文版
 6. [How JavaScript Timers Work](http://www.cnitblog.com/asfman/articles/55714.html)翻译版
+
 - - -
 ###usagent###
 1. [浏览器的用户代理字符串](http://www.cnblogs.com/zoho/archive/2012/04/06/2434777.html)
 2. [用户代理检测](http://csspod.com/archives/user-agent-detection)
+
 - - -
 ###js跨域###
 1. [JSONProxy](https://jsonp.nodejitsu.com/) 一个jsonp的代理
