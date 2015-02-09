@@ -33,6 +33,7 @@ Font-End-Resource
 2.　[JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/) 阮一峰老师整理的一个js的有关东西，挺好的
 3.　[BROWSERHACKS](http://browserhacks.com/)**一个给出了很多hack方法的网站**
 4.　[列举了各种js库的网站，超级超级好](http://www.javascripting.com/)
+5.　[前端外刊评论](http://zhuanlan.zhihu.com/FrontendMagazine)
 
 ##一些订阅的网站##
 1. [Startup News](http://news.dbanotes.net/news)一次偶然的机会发现的，一些不错的IT信息
