@@ -1,19 +1,13 @@
-js
-================
-
-一些有关js的中间收集的不错的文章，也许有些会因为时间久了失效
-
-
 ##一、ECMAScript##
 ###1.1 this###
-1.　[javascript的动态this与动态绑定](http://www.cnblogs.com/rubylouvre/archive/2009/11/13/1602122.html)
-2.　[Javascript的this用法](http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html)
-3.　[详解JavaScript中的this](http://foocoder.com/blog/xiang-jie-javascriptzhong-de-this.html/)
-4.　[understanding-keyword-javascript](http://www.phloxblog.in/understanding-keyword-javascript/#.U1XjPfmSx5h)
+1. [javascript的动态this与动态绑定](http://www.cnblogs.com/rubylouvre/archive/2009/11/13/1602122.html)
+2. [Javascript的this用法](http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html)
+3. [详解JavaScript中的this](http://foocoder.com/blog/xiang-jie-javascriptzhong-de-this.html/)
+4. [understanding-keyword-javascript](http://www.phloxblog.in/understanding-keyword-javascript/#.U1XjPfmSx5h)
 
 ###1.2 闭包###
-1.　[学习Javascript闭包（Closure）](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
-2.　[javascript深入理解js闭包](http://blog.csdn.net/qq545923664/article/details/17162711)
+1. [学习Javascript闭包（Closure）](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
+2. [javascript深入理解js闭包](http://blog.csdn.net/qq545923664/article/details/17162711)
 
 ###1.3 promise###
 1. [JavaScript Promises](http://www.html5rocks.com/zh/tutorials/es6/promises/#toc-async)讲的挺详细的，感觉不错，算是比较通俗易懂的文章了
