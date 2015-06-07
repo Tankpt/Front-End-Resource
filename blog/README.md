@@ -46,5 +46,8 @@ Front-End-Resource
 2. [Hacker News](https://news.ycombinator.com/news)跟前面的那个很类似，不过是外文的
 
 
+##随便看看##
+1. [species-in-pieces](http://species-in-pieces.com/?utm_source=CSS-Weekly&utm_campaign=Issue-155&utm_medium=web#)掉渣天的动画
+
 最后在引用知乎上的一个链接～
 [前端开发领域有哪些值得推荐的问答？](http://www.zhihu.com/question/20246142/answer/14470387)

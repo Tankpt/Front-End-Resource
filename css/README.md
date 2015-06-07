@@ -21,11 +21,18 @@ css
 2. [纯CSS气泡框实现方法探究](http://lyj86.iteye.com/blog/1915009)
 3. [伪类和伪元素区别](http://swordair.com/origin-and-difference-between-css-pseudo-classes-and-pseudo-elements/)  挺不错的。涨知识了，原来以前叫的都是错误的东西
 4. [浅谈html语义化](http://m.oschina.net/blog/135743)
+5. [编写可维护的CSS](http://segmentfault.com/a/1190000000388784)
+6. [有关拟写高效CSS的文章](http://css-tricks.com/efficiently-rendering-css/)
+7. [黑科技loading-css-without-blocking-render](http://keithclark.co.uk/articles/loading-css-without-blocking-render/)
 
 
 ##Sass##
 1. [保持Sass的简单](http://www.w3cplus.com/preprocessor/keep-sass-simple.html)
 
-#教程#
+##性能##
+1. [个站 CSS 性能优化](http://xinranliu.me/2014-09-27-css-performance-tooling/)
+2. [拆分关键CSS(Critical CSS)](http://xinranliu.me/2014-07-29-%E6%8B%86%E5%88%86Critical-CSS/)
+3. [Authoring Critical Above-the-Fold CSS](https://css-tricks.com/authoring-critical-fold-css/)
 
+#教程#
 1. [学习css布局](http://zh.learnlayout.com/)
