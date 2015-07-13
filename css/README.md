@@ -24,7 +24,9 @@ css
 5. [编写可维护的CSS](http://segmentfault.com/a/1190000000388784)
 6. [有关拟写高效CSS的文章](http://css-tricks.com/efficiently-rendering-css/)
 7. [黑科技loading-css-without-blocking-render](http://keithclark.co.uk/articles/loading-css-without-blocking-render/)
-
+8. [bootstrap关于一些规范的文章](http://codeguide.bootcss.com/)
+9. [About normalize.css](http://nicolasgallagher.com/about-normalize-css/)
+10. [Dawn CSS Reset](http://www.cnblogs.com/mingelz/archive/2009/08/12/dawn-css-reset.html)一些常见的css reset的对比
 
 ##Sass##
 1. [保持Sass的简单](http://www.w3cplus.com/preprocessor/keep-sass-simple.html)

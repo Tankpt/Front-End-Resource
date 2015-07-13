@@ -1,8 +1,8 @@
-Front-End-Resource
+blog
 ================
 
-##一些前端相关blog（排名部分先后～～）##
-
+##一些前端相关blog##
+（排名部分先后～～）
 1. [司徒正美](http://www.cnblogs.com/rubylouvre/)
 2. [沫鱼](http://www.cnblogs.com/mofish/)
 3. [汤姆大叔的博客](http://www.cnblogs.com/TomXu/) 对js有些东西讲的相当不错
@@ -26,10 +26,14 @@ Front-End-Resource
 21. [cssforest](http://blog.cssforest.org/)
 22. [Franky](http://www.cnblogs.com/_franky/)
 23. [周文彬](http://www.zhouwenbin.com/) 这个要支持。。看过很多他的东西不错
+24. [叶小钗](http://www.cnblogs.com/yexiaochai)
 
 ##一些前端团队的博客##
 
 1. [百度EFE](http://efe.baidu.com/)
+
+##一些社区
+1. [w3ctech](http://www.w3ctech.com/)
 
 ##一些小站##
 
@@ -39,16 +43,24 @@ Front-End-Resource
 4. [列举了各种js库的网站，超级超级好](http://www.javascripting.com/)
 5. [前端外刊评论](http://zhuanlan.zhihu.com/FrontendMagazine)
 6. [前端知识体系](http://ecomfe.duapp.com/) 基本是一个手册了由Baidu EFE team创建的
+7. [前端社区导航](http://whycss.com/)
+8. [Web前端实验室](http://demo.doyoe.com/)
+9. [browserscope](http://www.browserscope.org/)列举了很多浏览器的特性对比
+10. [web performance today](http://www.webperformancetoday.com/)很多介绍性能的网站
+11. [Web技术研究所](http://www.web-tinker.com/)
+12. [w3ctech](http://www.w3ctech.com/)
 
 ##一些订阅的网站##
 
 1. [Startup News](http://news.dbanotes.net/news)一次偶然的机会发现的，一些不错的IT信息
 2. [Hacker News](https://news.ycombinator.com/news)跟前面的那个很类似，不过是外文的
+3. [html5rocks](http://www.html5rocks.com/en/)国外的一个网站
+4. [lostechies](https://lostechies.com/)
 
 
 ##随便看看##
-
 1. [species-in-pieces](http://species-in-pieces.com/?utm_source=CSS-Weekly&utm_campaign=Issue-155&utm_medium=web#)掉渣天的动画
+2. [在线工具](http://tool.lu/)
 
 最后在引用知乎上的一个链接～
 [前端开发领域有哪些值得推荐的问答？](http://www.zhihu.com/question/20246142/answer/14470387)

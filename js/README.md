@@ -1,3 +1,6 @@
+js
+==================
+
 ##一、ECMAScript##
 ###1.1 this###
 1. [javascript的动态this与动态绑定](http://www.cnblogs.com/rubylouvre/archive/2009/11/13/1602122.html)
@@ -33,6 +36,7 @@
 4. [setTimeout和setInterval的区别](http://www.jb51.net/article/26679.htm)
 5. [How JavaScript Timers Work](http://ejohn.org/blog/how-javascript-timers-work/)中文版
 6. [How JavaScript Timers Work](http://www.cnitblog.com/asfman/articles/55714.html)翻译版
+7. [Understanding timers: setTimeout and setInterval](http://javascript.info/tutorial/settimeout-setinterval)同是讲定时器的问题的，图文并茂，还是不错的
 
 ###3.2 usagent###
 1. [浏览器的用户代理字符串](http://www.cnblogs.com/zoho/archive/2012/04/06/2434777.html)
@@ -75,13 +79,14 @@
 4. [JavaScript MVC 框架技术选型](http://segmentfault.com/a/1190000000379723)
 5. [Model-View-Controller (MVC) with JavaScript](http://alexatnet.com/articles/model-view-controller-mvc-javascript)
 6. [JavaScript MVC 框架比较](http://inching.org/2014/03/18/javascript-mvc/)一位博主的整理，很全，参考的文章也很多
-
-###4.6 前端性能###
+7. [【译】2015年JavaScript应用架构趋势](http://melon.github.io/blog/2014/12/16/translation-javascript-application-architecture-on-the-road-to-2015/)
 
 ##五、杂##
-1.　[浏览器开发工具的秘密](http://jinlong.github.io/blog/2013/08/29/devtoolsecrets/)
-2.　[浅谈HTTP中Get与Post的区别](http://www.cnblogs.com/hyddd/archive/2009/03/31/1426026.html)
-3.　[HTTP常见错误返回代码](http://jackface.iteye.com/blog/2090184)
-4.　[正则表达式的入门](http://deerchao.net/tutorials/regex/regex.htm#mission)
-5.　[55分钟学会正则表达式(译)](http://doslin.com/learn-regular-expressions-in-about-55-minutes/)
-6.　[XSS 前端防火墙——内联事件拦截](http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-1/)
+1. [浏览器开发工具的秘密](http://jinlong.github.io/blog/2013/08/29/devtoolsecrets/)
+2. [浅谈HTTP中Get与Post的区别](http://www.cnblogs.com/hyddd/archive/2009/03/31/1426026.html)
+3. [HTTP常见错误返回代码](http://jackface.iteye.com/blog/2090184)
+4. [正则表达式的入门](http://deerchao.net/tutorials/regex/regex.htm#mission)
+5. [55分钟学会正则表达式(译)](http://doslin.com/learn-regular-expressions-in-about-55-minutes/)
+6. [XSS 前端防火墙——内联事件拦截](http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-1/)
+7. [关于js float类型的一些问题](http://blog.chewxy.com/2014/02/24/what-every-javascript-developer-should-know-about-floating-point-numbers/)
+8. [前端的各种转义](https://github.com/FrankFang/githublog/blob/master/%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF%E7%9A%84%E5%90%84%E7%A7%8D%E8%BD%AC%E4%B9%89.md)

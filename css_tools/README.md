@@ -1,8 +1,5 @@
 css工具
-
-================
-
-收集的一些前端的有关的资源
+===============
 
 1. [天气的图标](http://darkskyapp.github.io/skycons/)
 2. [icomoon矢量图标](https://icomoon.io/)
@@ -12,6 +9,9 @@ css工具
 6. [iHover](http://gudh.github.io/ihover/dist/index.html)
 7. [Creative Button Styles](http://tympanus.net/Development/CreativeButtons/)
 8. [connoratherton](http://connoratherton.com/)
+9. [anicollection](http://anicollection.github.io/#/)列举了很多css3的动画
+10. [The Shapes of CSS](https://css-tricks.com/examples/ShapesOfCSS/)列举了很多用css完成的类似三角形或者心形
+11. [Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/)又是一些css loading状态
 
 
 ##手册##
@@ -24,4 +24,3 @@ css工具
 4. [uncss](https://github.com/giakki/uncss)将无用的css移除
 5. [Css shrink](http://cssshrink.com/)css的高级压缩
 6. [StyleStats](http://www.stylestats.org/)评价css的一个网站
-7. 
