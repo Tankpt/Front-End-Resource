@@ -22,3 +22,4 @@ performance
 9. [Optimizing Page Load Time](http://www.die.net/musings/page_load_time/)
 10. [Maximizing Parallel Downloads in the Carpool Lane](http://yuiblog.com/blog/2007/04/11/performance-research-part-4/)
 11. [载入页面时使用多域名实现资源并行下载](http://wzfjesun.blog.163.com/blog/static/14245693920124148239436/)
+12. [优化性能](https://developers.google.com/web/fundamentals/performance/index?hl=zh-cn)谷歌的性能优化指南。看完还是有很多启发的

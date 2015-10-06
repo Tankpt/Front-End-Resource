@@ -58,6 +58,8 @@ blog
 3. [html5rocks](http://www.html5rocks.com/en/)国外的一个网站
 4. [lostechies](https://lostechies.com/)
 
+##前端安全##
+1. [XSS Filter Evasion Cheat Sheet](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet#Introduction)
 
 ##随便看看##
 1. [species-in-pieces](http://species-in-pieces.com/?utm_source=CSS-Weekly&utm_campaign=Issue-155&utm_medium=web#)掉渣天的动画

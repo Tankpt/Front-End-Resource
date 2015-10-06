@@ -81,6 +81,10 @@ js
 6. [JavaScript MVC 框架比较](http://inching.org/2014/03/18/javascript-mvc/)一位博主的整理，很全，参考的文章也很多
 7. [【译】2015年JavaScript应用架构趋势](http://melon.github.io/blog/2014/12/16/translation-javascript-application-architecture-on-the-road-to-2015/)
 
+###4.6 chrome开发工具
+1. [使用Chrome DevTools的Timeline和Profiles提高Web应用程序的性能
+](http://www.oschina.net/translate/performance-optimisation-with-timeline-profiles)
+
 ##五、杂##
 1. [浏览器开发工具的秘密](http://jinlong.github.io/blog/2013/08/29/devtoolsecrets/)
 2. [浅谈HTTP中Get与Post的区别](http://www.cnblogs.com/hyddd/archive/2009/03/31/1426026.html)
@@ -90,3 +94,4 @@ js
 6. [XSS 前端防火墙——内联事件拦截](http://fex.baidu.com/blog/2014/06/xss-frontend-firewall-1/)
 7. [关于js float类型的一些问题](http://blog.chewxy.com/2014/02/24/what-every-javascript-developer-should-know-about-floating-point-numbers/)
 8. [前端的各种转义](https://github.com/FrankFang/githublog/blob/master/%E6%8A%80%E6%9C%AF/%E5%89%8D%E7%AB%AF%E7%9A%84%E5%90%84%E7%A7%8D%E8%BD%AC%E4%B9%89.md)
+9. [语义化版本 2.0.0](http://semver.org/lang/zh-CN/)
