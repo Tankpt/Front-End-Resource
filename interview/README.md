@@ -1,29 +1,27 @@
-面试基础题目
-===============
+#js
 
-#js#
-##一、基本知识##
+##一、基本知识
 
-###1.基本类型和引用类型###
+### 1.基本类型和引用类型
 基本类型就是那些字符串、数字、布尔值以及null和Undefine，他们在传递数值的时候只进行值传递；
 引用类型就是除了上面这些基本类型之外的那些对象，他在传递的过程中，采用的是引用的传递，类似java中的两种类型的值一样
 
-###2.null && undefine###
+### 2.null && undefine
 null是一个对象，指代的是一个对象不存在；一般应用在函数的参数来判断不是对象，或者是在原型链中的终点
 typeof null -> object
 undefine则是一个预定全局变量，表明的是一个变量没有初始化，可以理解就是声明的一个变量但是还没给这个变量赋值的那些情况；
 typeof undefine -> undefine
 
-###3. 执行环境和作用域###
+### 3. 执行环境和作用域
 执行环境：是一个函数可以访问到的变量和函数
 作用域：是一个函数在执行过程中可以访问到的变量和函数的一个对象链
 
 
-###4. 垃圾回收###
+### 4. 垃圾回收
 当一个函数执行完毕的时候，正常情况下，他内部声明的变量和函数会在函数执行结束后进行释放，常见的有两种处理垃圾回收的方法：一种是引用计数（就是计算引用一个变量的次数，当一个变量他的引用的次数为0的时候就代表了没有其他变量引用他，便可以进行垃圾回收）；还有一种是标记清除（利用一个标记为来清除）
 
 
-###5. this###
+### 5. this
 关于this的指向分为四种，分别对应了函数的四种用法
 1. 当函数作为构造函数的时候，比如new A()，那么此时函数A内部的this指向的是构造函数返回的那个新的实例；
 2. 函数作为一个对象的方法进行调用，比如p.A()，那么此时函数A中的this指向的是该对象P
@@ -31,7 +29,7 @@ typeof undefine -> undefine
 4. 函数作为call,apply的方法调用，比如A.call(o,a)，那么此时函数A内部的this指向的是绑定后的对象o
 
 
-###6. 闭包###
+### 6. 闭包
 闭包的作用有两个
 1. 可以读取到函数内部的数值
 2. 可以让一些变量始终保存在内存中（私有变量）
@@ -42,15 +40,15 @@ typeof undefine -> undefine
 
 比如一些全局的计数可以用这个方法来实现
 
-###7. 面向对象 ###
+### 7. 面向对象 
 
 
 
-###8. arguments###
+### 8. arguments
 
 是一个类数组，表示符arguments表示的是指向实参对象的引用，还有一个是aguments.callee指代的是当前正在执行的函数，可以使用这个方法来下实现递归的函数调用
 
-###9. Array和String基本用法###
+### 9. Array和String基本用法
 1. Array
     * slice():从某个已有的数组返回选定的元素
     * join():把数组的所有元素放入一个字符串。元素通过指定的分隔符进行分隔。
@@ -60,7 +58,7 @@ typeof undefine -> undefine
     * split()把字符串分割为字符串数组
     * substring() 方法用于提取字符串中介于两个指定下标之间的字符
 
-###10. Object.create###
+### 10. Object.create
         Object.create(prototype, descriptors)
 第一个参数是原型链上的属性,后面的参数是挂在对象上的,EC５的功能
 可以通过模拟类似实现（可以再加一些对类似的判断）
@@ -72,12 +70,11 @@ typeof undefine -> undefine
 不过只是类似模拟，因为有种object.create(null)没有原型的也可以
 
 
-###11. AJAX和Promise/Deferred###
+### 11. AJAX和Promise/Deferred
 
-###12.###
 
-##二、 问题##
-###1. js脚本延迟###
+## 二、 问题
+### 1. js脚本延迟
 js程序在浏览器端的执行分两个步骤：
 1. 载入文档，并执行<\script\>中的代码
 2. 执行异步事件 这个时候就是监听浏览上发生的事件
@@ -90,11 +87,11 @@ js程序在浏览器端的执行分两个步骤：
 
 可以动态创建一个。然后再插入DOM中
 
-###2. 写一个通过的事件处理的函数###
+### 2. 写一个通过的事件处理的函数
 就是要处理下IE的事件处理跟其他的事件处理的兼容
 target在事件流的目标阶段；currentTarget在事件流的捕获，目标及冒泡阶段。只有当事件流处在目标阶段的时候，两个的指向才是一样的， 而当处于捕获和冒泡阶段的时候，target指向被单击的对象而currentTarget指向当前事件活动的对象（一般为父级）。
 
-###3. 常见的http错误代码###
+### 3. 常见的http错误代码
 200 - 服务器成功返回网页
 404 - 请求的网页不存在
 503 - 服务不可用
@@ -108,14 +105,14 @@ target在事件流的目标阶段；currentTarget在事件流的捕获，目标�
 4.4xx：客户端错误，请求包含语法错误或者请求无法实现
 5.5xx：服务器错误，服务器不能实现一种明显无效的请求
 
-###4. new一个对象过程中发生的事情###
+### 4. new一个对象过程中发生的事情
 自定义构造函数，在new过程中发生的事情
 
    * 创建一个空对象，将它的引用赋给this，并继承函数的原型。
    * 通过this将属性和方法添加至这个对象。
    * 最后返回this指向的新对象（如果没有手动返回其他的对象）。
 
-###5. **bind函数**###
+### 5. **bind函数**
 函数绑定一个简单的bind函数接受一个函数和一个环境，并返回一个在给定环境中调用给定函数的函数，并且就让那个所有参数不变地传过去
 
     function bind(fn,context){
@@ -123,14 +120,15 @@ target在事件流的目标阶段；currentTarget在事件流的捕获，目标�
             return fn.apply(context,argument);
         }
     }
-###6. function与New　Function的区别###
+    
+### 6. function与New　Function的区别
 1. new Function()允许js在运行时动态创建并编译函数
 2. 每次调用都会先解析函数体并创建新的函数对象，所以执行的效率比较低（比如在一个循环体中这个定义，每次都会进行解析，而function不用）
 3. Function的作用域在顶层(全局作用域)
 
 注：貌似之前在博客中看到过，有一些模版引擎就是通过这个来实现的
 
-###7. js创建一个table###
+### 7. js创建一个table
 可能一开始的想法会是如下
 
         var _table = document.createElement("table");
@@ -142,7 +140,7 @@ target在事件流的目标阶段；currentTarget在事件流的捕获，目标�
 
 [附上第一种方法的代码](https://developer.mozilla.org/zh-CN/docs/%E4%BD%BF%E7%94%A8Javascript%E5%92%8CDOM_Interfaces%E6%9D%A5%E5%A4%84%E7%90%86HTML)
 
-###8. 关于跨域的方法###
+### 8. 关于跨域的方法
 1. postMessage
 2. 修改window.domain
 3. 修改window.name
@@ -150,7 +148,7 @@ target在事件流的目标阶段；currentTarget在事件流的捕获，目标�
 
 具体可以参考之前整理的[博文](http://tankpt.github.io/2014/05/28/20140528_cors/)
 
-###9. get 和post方式的区别###
+### 9. get 和post方式的区别
 原理上
 1. 根据http规范，GET用于信息获取，而且是安全和幂等
 get应该指的是用于获取信息而不是修改信息，
@@ -169,7 +167,7 @@ get应该指的是用于获取信息而不是修改信息，
 
 4. POST的安全性要比GET的安全性高。注意：这里所说的安全性和上面GET提到的“安全”不是同个概念。上面“安全”的含义仅仅是不作数据修改，而这里安全的含义是真正的Security的含义，比如：通过GET提交数据，用户名和密码将明文出现在URL上，因为(1)登录页面有可能被浏览器缓存，(2)其他人查看浏览器的历史纪录，那么别人就可以拿到你的账号和密码了，除此之外，使用GET提交数据还可能会造成Cross-site request forgery攻击。
 
-###10. js深拷贝###
+### 10. js深拷贝
 主要的点在于js对象的赋值，是引用的赋值
 
         function clone(myObj){
@@ -183,7 +181,7 @@ get应该指的是用于获取信息而不是修改信息，
             return myNewObj;
         }
 
-###11. url中取参数###
+### 11. url中取参数
 貌似很多地方都会出现这个问题，写了个自己的
 
         var getParament = function (_url) {
@@ -209,12 +207,12 @@ get应该指的是用于获取信息而不是修改信息，
         }
 
 
-###12. 从dom查找class###
+### 12. 从dom查找class
 
 写了两种方法，一种是用ducoment.getElementsByTagName("*")；还有一种是基于递归的方法来实现，两种方法见整理的[js-common中element](https://github.com/Tankpt/learning/blob/master/js-common/src/element.js)
 
 
-###13. innerText、textContent区别###
+### 13. innerText、textContent区别
 刚好看到这个。然后搜了下网上找到一个[不错的答案](http://stackoverflow.com/questions/19030742/difference-between-innertext-and-innerhtml-in-javascript)
 大概的就是说了下
 1. innerHTML
@@ -233,16 +231,16 @@ get应该指的是用于获取信息而不是修改信息，
 写了一个比较兼容的方法
 见整理的[js-common中element](https://github.com/Tankpt/learning/blob/master/js-common/src/element.js)
 
-###14. 用innerHTML来实现outerHTML###
+### 14. 用innerHTML来实现outerHTML
 主要的思想就是创建一个临时的容器，里面放着需要的node的一份拷贝内容，在插入的时候则是利用结点在移动的时候，他会自动从一个地方移动到另一个地方，原来的地方不需要手动清除
 见整理的[js-common中element](https://github.com/Tankpt/learning/blob/master/js-common/src/element.js)
 
-###15. 模拟jquery中的append insertBefore的方法###
+### 15. 模拟jquery中的append insertBefore的方法
 
 主要是思路就是通过原生的这append 和insertBefore来实现，insertAfter、insertBefore、append、pretend
 见整理的[js-common中element](https://github.com/Tankpt/learning/blob/master/js-common/src/element.js)
 
-###16. 模拟事件###
+### 16. 模拟事件
 对于事件的绑定和解绑，所要注意的就是IE下的attachEvent与非IE下的addEventListener,之前看到的一个简单的版本如下
 
         _v._$dispatchEvent = function(_node,_event){
@@ -303,11 +301,13 @@ get应该指的是用于获取信息而不是修改信息，
 
 补充：**在event对象中，有俩属性target和currentTarget，其中target始终指向触发该事件的元素；currentTarget则是始终指向绑定事件的元素，而且在事件处理函数中的this 也是指向绑定事件的元素**
 
-###17. 模拟jQuery中的ready方法###
+### 17. 模拟jQuery中的ready方法
 主要是来监听document的DOMContentLoad（表示文档加载完毕，但是可能图片或延迟的js还没加载好）,还有监听document的readystatechange事件，以及监听load　
 
-#css#
-##一、基本知识##
+------
+
+# css
+## 一、基本知识
 1. font的缩写可以按照下面的规则
     
             font-style
@@ -325,38 +325,44 @@ get应该指的是用于获取信息而不是修改信息，
     none、underline、overline、line-through、blink
 5. 
 
-##问题##
+## 问题
 1. css常见的hack
  关于hack的介绍：
+
 （１）属性前缀法(即类内部Hack)：例如 IE6能识别下划线"_"和星号" * "，IE7能识别星号"*"，但不能识别下划线"_"，IE6~IE10都认识"\9"，但firefox前述三个都不能认识。
+
 （２）选择器前缀法(即选择器Hack)：例如 IE6能识别*html.class{}，IE7能识别*+html.class{}或者*:first-child+html .class{}。
-（３）IE条件注释法(即HTML条件注释Hack)：针对所有IE(注：IE10+已经不再支持条件注释)： <!--[if IE]>IE浏览器显示的内容<![endif]-->，针对IE6及以下版本：<!--[if lt IE 6]>只在IE6-显示的内容<![endif]-->。这类Hack不仅对CSS生效，对写在判断语句里面的所有代码都会生效。
+
+（３）IE条件注释法(即HTML条件注释Hack)：针对所有IE(注：IE10+已经不再支持条件注释)： \<!--[if IE]>IE浏览器显示的内容<![endif]-->，针对IE6及以下版本：\<!--[if lt IE 6]>只在IE6-显示的内容<![endif]-->。这类Hack不仅对CSS生效，对写在判断语句里面的所有代码都会生效。
 
         background-color:gray\9; /* IE6, IE7, IE8, IE9, IE10*/
         background-color:purple\0; /* IE8, IE9, IE10 */  
         background-color:orange\9\0;/*IE9, IE10*/  
         *background-color:black;  /* ie 6/7 - for ie7 */  
         _background-color:green;  /* ie 6 - for ie6 */   
-2. 
 
-#html#
 
-##基础##
+------
+
+# html
+
+## 基础
 1.  Doctype? 严格模式与混杂模式-如何触发这两种模式，区分它们有何意义? 
 标准模式和混杂模式（quirks mode）。在标准模式中，浏览器根据规范呈现页面；在混杂模式中，页面以一种比较宽松的向后兼容的方式显示。
 [详见](http://blog.sina.com.cn/s/blog_5f245b8a01019uy7.html)
 2.  void的空元素
 [见博文](http://ourjs.com/detail/531b2ce89144f4934f00000b)
-3.  
 
-#其他#
+---
 
-##cookie##
+# 其他
+
+## cookie
 1. cookie的作用域是通过文档源和文档路径来确定的；而且默认情况下，于创建他的web页面有关，并对该web页面以及和该页面同目录或者子目录的其他web页面可见
 2. 不过cookie可以设置他的作用域
 
 
-##兼容问题##
+## 兼容问题
 1. 写出几种IE6 BUG的解决方法
 
         a  双边距BUG float引起的 使用display

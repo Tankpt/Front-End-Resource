@@ -1,5 +1,4 @@
-css工具
-===============
+## css工具
 
 1. [天气的图标](http://darkskyapp.github.io/skycons/)
 2. [icomoon矢量图标](https://icomoon.io/)
@@ -12,15 +11,15 @@ css工具
 9. [anicollection](http://anicollection.github.io/#/)列举了很多css3的动画
 10. [The Shapes of CSS](https://css-tricks.com/examples/ShapesOfCSS/)列举了很多用css完成的类似三角形或者心形
 11. [Single Element CSS Spinners](http://projects.lukehaas.me/css-loaders/)又是一些css loading状态
+12. [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)渐变的css生成
+13. [三角形](http://apps.eky.hk/css-triangle-generator/zh-hant)
+14. [图片转ico格式](http://www.favicongenerator.com/)
+15. [cssmenumaker](http://cssmenumaker.com/)
+16. [18 CSS Effect Libraries for Creating Beautiful Animations](https://codegeekz.com/css-effect-libraries-creating-beautiful-animations/)18个css动画的介绍
+17. [Old Browser CSS Hacks](http://www.frontendevelopers.com/old-browser-css-hacks/)
 
 
-##手册##
-1.[CSS参考手册](http://css.doyoe.com/)
+## 手册
+1. [CSS参考手册](http://css.doyoe.com/)
+2. [The Ultimate Guide to CSS](https://www.campaignmonitor.com/css/)
 
-##性能##
-1. [csstrigger](http://csstriggers.com/)
-2. [CSS Test Creator](http://stevesouders.com/efws/css-selectors/csscreate.php)
-3. [CSScomb](http://csscomb.com/)对写的css代码进行优化，仅仅是顺序优化，但是对压缩的结果会有影响
-4. [uncss](https://github.com/giakki/uncss)将无用的css移除
-5. [Css shrink](http://cssshrink.com/)css的高级压缩
-6. [StyleStats](http://www.stylestats.org/)评价css的一个网站

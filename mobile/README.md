@@ -1,8 +1,8 @@
 mobile
 ================
 
-##一. 移动web基础
-###1.1 关于viewport 
+## 一. 移动web基础
+### 1.1 关于viewport 
 1. [两个viewport的故事（第一部分）](http://weizhifeng.net/viewports.html)
 2. [A tale of two viewports — part one](http://www.quirksmode.org/mobile/viewports.html)
 3. [两个viewport的故事（第二部分）](http://weizhifeng.net/viewports2.html)
@@ -39,6 +39,7 @@ mobile
 
 ## 三、工具
 1. [移动端前端开发调试](http://yujiangshui.com/multidevice-frontend-debug/)
+2. [移动设备支持的Api](https://whatwebcando.today/?utm_source=jsgoup)
 
 
 ## 四、参考案例
@@ -54,7 +55,7 @@ mobile
 3. [Zepto 使用中的一些注意点](http://chaoskeh.com/blog/some-experience-of-using-zepto.html)注意官网下载的不含有touch模块需要自己build
 
 
-##其他
+## 其他
 
 1. [原生App vs 移动WebApp](http://www.oschina.net/translate/native-app-vs-mobile-web-app-comparison)
 2. [为什么移动Web应用程序很慢（译）](http://www.cnblogs.com/codemood/p/3213459.html)
